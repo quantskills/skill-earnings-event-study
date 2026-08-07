@@ -1,0 +1,4 @@
+interface:
+  display_name: "Earnings Event Study"
+  short_description: "财报/公司事件 CAR 研究：异常收益、多窗口显著性与稳健性"
+  default_prompt: "Use $earnings-event-study 对 examples/data 中的财报事件做市场调整 CAR 事件研究，输出主窗口 [-1,1] 的 mean CAR、t、p 与多窗口对比，并披露 N 与模型。"

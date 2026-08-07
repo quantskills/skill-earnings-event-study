@@ -1,0 +1,16 @@
+---
+description: Earnings / corporate event study — CAR, abnormal returns, cross-sectional significance across event windows (not real-time alerts).
+globs:
+alwaysApply: false
+---
+
+# Earnings Event Study
+
+When the user asks for 财报事件研究, CAR, 异常收益, 事件窗口, earnings surprise reaction, or formal event-study statistics:
+
+1. Load the skill at `.cursor/skills/earnings-event-study/SKILL.md` (or the installed equivalent).
+2. Prefer `scripts/event_study.py` over ad-hoc spreadsheet math; disclose model (`market`|`mean`) and market proxy.
+3. Always report N_input / N_used / N_dropped; refuse narrative conclusions if N_used < 20.
+4. Read `references/event-study-methods.md` for windows, tests, and overlapping-event caveats.
+5. Do not give buy/sell advice; end with the research-only disclaimer.
+6. Do not confuse this with event-risk monitoring/alert skills.

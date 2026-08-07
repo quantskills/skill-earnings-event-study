@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+logs/
+*.parquet
+prices/
+real_runs/
+sources/
+.venv/
+venv/
